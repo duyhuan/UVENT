@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333DE8B21E7C40A2003C94F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DE8B11E7C40A2003C94F8 /* AppDelegate.swift */; };
+		333DE8B41E7C40A2003C94F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DE8B31E7C40A2003C94F8 /* ViewController.swift */; };
+		333DE8B71E7C40A2003C94F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DE8B51E7C40A2003C94F8 /* Main.storyboard */; };
+		333DE8B91E7C40A2003C94F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333DE8B81E7C40A2003C94F8 /* Assets.xcassets */; };
+		333DE8BC1E7C40A2003C94F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333DE8BA1E7C40A2003C94F8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333DE8AE1E7C40A2003C94F8 /* UVENT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVENT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333DE8B11E7C40A2003C94F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333DE8B31E7C40A2003C94F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		333DE8B61E7C40A2003C94F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333DE8B81E7C40A2003C94F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333DE8BB1E7C40A2003C94F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333DE8BD1E7C40A2003C94F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333DE8AB1E7C40A2003C94F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333DE8A51E7C40A2003C94F8 = {
+			isa = PBXGroup;
+			children = (
+				333DE8B01E7C40A2003C94F8 /* UVENT */,
+				333DE8AF1E7C40A2003C94F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333DE8AF1E7C40A2003C94F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333DE8AE1E7C40A2003C94F8 /* UVENT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333DE8B01E7C40A2003C94F8 /* UVENT */ = {
+			isa = PBXGroup;
+			children = (
+				333DE8B11E7C40A2003C94F8 /* AppDelegate.swift */,
+				333DE8B31E7C40A2003C94F8 /* ViewController.swift */,
+				333DE8B51E7C40A2003C94F8 /* Main.storyboard */,
+				333DE8B81E7C40A2003C94F8 /* Assets.xcassets */,
+				333DE8BA1E7C40A2003C94F8 /* LaunchScreen.storyboard */,
+				333DE8BD1E7C40A2003C94F8 /* Info.plist */,
+			);
+			path = UVENT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333DE8AD1E7C40A2003C94F8 /* UVENT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333DE8C01E7C40A2003C94F8 /* Build configuration list for PBXNativeTarget "UVENT" */;
+			buildPhases = (
+				333DE8AA1E7C40A2003C94F8 /* Sources */,
+				333DE8AB1E7C40A2003C94F8 /* Frameworks */,
+				333DE8AC1E7C40A2003C94F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVENT;
+			productName = UVENT;
+			productReference = 333DE8AE1E7C40A2003C94F8 /* UVENT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333DE8A61E7C40A2003C94F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "huan huan";
+				TargetAttributes = {
+					333DE8AD1E7C40A2003C94F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U5QU4Y9327;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 333DE8A91E7C40A2003C94F8 /* Build configuration list for PBXProject "UVENT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333DE8A51E7C40A2003C94F8;
+			productRefGroup = 333DE8AF1E7C40A2003C94F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333DE8AD1E7C40A2003C94F8 /* UVENT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333DE8AC1E7C40A2003C94F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DE8BC1E7C40A2003C94F8 /* LaunchScreen.storyboard in Resources */,
+				333DE8B91E7C40A2003C94F8 /* Assets.xcassets in Resources */,
+				333DE8B71E7C40A2003C94F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333DE8AA1E7C40A2003C94F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333DE8B41E7C40A2003C94F8 /* ViewController.swift in Sources */,
+				333DE8B21E7C40A2003C94F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333DE8B51E7C40A2003C94F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333DE8B61E7C40A2003C94F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333DE8BA1E7C40A2003C94F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333DE8BB1E7C40A2003C94F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333DE8BE1E7C40A2003C94F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333DE8BF1E7C40A2003C94F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333DE8C11E7C40A2003C94F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5QU4Y9327;
+				INFOPLIST_FILE = UVENT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duyhuan.UVENT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		333DE8C21E7C40A2003C94F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5QU4Y9327;
+				INFOPLIST_FILE = UVENT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duyhuan.UVENT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333DE8A91E7C40A2003C94F8 /* Build configuration list for PBXProject "UVENT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DE8BE1E7C40A2003C94F8 /* Debug */,
+				333DE8BF1E7C40A2003C94F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333DE8C01E7C40A2003C94F8 /* Build configuration list for PBXNativeTarget "UVENT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DE8C11E7C40A2003C94F8 /* Debug */,
+				333DE8C21E7C40A2003C94F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333DE8A61E7C40A2003C94F8 /* Project object */;
+}
